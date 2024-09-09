@@ -19,7 +19,7 @@ a{
 }
 
 button{
-    border-radius: 5px;
+    border-radius: 7px;
 }
 img{
     max-width: 100%;
@@ -141,7 +141,7 @@ a{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 100px 400px
+    padding: 120px 400px
 }
 
 .quote-text{
@@ -156,4 +156,43 @@ a{
     justify-content: end;
     font-size: 24px;
     font-weight: 900;
+}
+
+.call-block{
+    padding: 100px 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-box{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 48px 150px;
+    flex: auto;
+    justify-content: space-between;
+}
+
+
+.call-title{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-text{
+    margin: 0;
+}
+
+.call-right{
+    display: flex;
+    justify-content: end;
+}
+
+.call-sign{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #3882F6;
+    border: 2px solid;
 }
