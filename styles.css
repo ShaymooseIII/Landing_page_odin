@@ -27,6 +27,7 @@ img{
     display: flex;
     flex: 1;
 }
+
 .head-background{
     background-color: #1F2937;
     padding: 24px 300px 100px 300px
@@ -96,5 +97,42 @@ a{
     display: flex;
     justify-content: end;
     max-width: 520px;
+    
+}
+
+.info-background{
+    padding: 0px 300px 100px 300px;
+}
+
+.info-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 32px;
+}
+
+.info-illustrations{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.ill-text{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 175px;
+    text-align: center;    
+}
+
+.illustrations{
+    height: 175px;
+    width: 175px;
+    border: 5px solid #3882F6;
+    margin: 0;
+    border-radius: 15px;
     
 }
