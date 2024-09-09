@@ -136,3 +136,24 @@ a{
     border-radius: 15px;
     
 }
+
+.quote-block{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    min-width: 300px;
+}
+
+.quoter{
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    font-weight: 900;
+}
