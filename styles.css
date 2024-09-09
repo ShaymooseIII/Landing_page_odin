@@ -196,3 +196,12 @@ a{
     background-color: #3882F6;
     border: 2px solid;
 }
+
+
+.footer{
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
